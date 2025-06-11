@@ -19,3 +19,37 @@ let someNumber = 33
 let stringNumber = String(someNumber);
 console.log(stringNumber);
 console.log(typeof stringNumber);
+
+// ************************************** OPERATION ************************************* //
+
+let value = 3 
+let negative = -value
+console.log(negative);
+
+//console.log(2+2)
+// all mathematical concepts
+
+let str1 = "hello"
+let str2 = " deep"
+let str3 = str1 + str2;
+
+console.log("1" + 2);
+console.log(1+ "2")
+console.log(1+ Number("2"));
+console.log("1" + 2+ 2); // 122
+console.log(1 + 2+ "2"); // 32
+//console.log(+true)//1 (+"")//0 if true+ then error\
+
+
+//***** prefix and postfix */
+let x = 3;
+const y = x++;
+
+console.log(`x:${x}, y:${y}`);
+// Expected output: "x:4, y:3"
+
+let a = 3;
+const b = ++a;
+
+console.log(`a:${a}, b:${b}`);
+// Expected output: "a:4, b:4"
